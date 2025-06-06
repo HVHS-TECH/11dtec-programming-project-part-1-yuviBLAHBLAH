@@ -1,4 +1,3 @@
-
-let classArray = ["car 1", "car 2", "car 3", "car 4", "car 5"];
+let classArray = ["Fiat 500", "Corvette ZR1", "Ford Focus", "Nissan Cube", "Toyota Prius"];
 let choice = prompt("pick a car between 0 and 4");
-alert("person " + choice + " is " + classArray[choice]);
+alert("car " + choice + " is " + classArray[choice]);
