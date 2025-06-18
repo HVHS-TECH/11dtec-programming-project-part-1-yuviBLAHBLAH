@@ -1,3 +1,3 @@
-let classArray = ["Fiat 500", "Corvette ZR1", "Ford Focus", "Nissan Cube", "Toyota Prius"];
-let choice = prompt("How many seats do you want in your car");
+let classArray = ["no car has zero seats... enter again", "BAC Mono (one seat)", "MX5", "Mini", "Falcon", "Outlander", "Estima"];
+let choice = prompt("How many seats do you want in your car 0-7");
 alert("car " + choice + " is " + classArray[choice]);
