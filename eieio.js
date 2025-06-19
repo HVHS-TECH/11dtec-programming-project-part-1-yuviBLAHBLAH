@@ -11,7 +11,7 @@ const cars = [
 const name = prompt("Welcome to Yuvis's Rentals! What's your name?");
 
 
-const seatRequirement = parseInt(prompt(`Hi ${name}, how many seats do you need?`));
+const seatRequirement = parseInt(prompt(`Hi ${name}, how many seats do you need? (maximum 8)`));
 
 
 const car = cars.find(c => c.seats >= seatRequirement);
